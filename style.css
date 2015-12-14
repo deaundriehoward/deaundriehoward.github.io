@@ -105,24 +105,19 @@ h2 {
 }
 
 .carousel img {
-	height: 40rem;
+	height: 30rem;
 }
 
-.carousel .btn {
-	text-align: center;
-	margin-left: 500px;
+.carousel button {
+	margin-left: 675px;
 }
 
-img {
-	float: center;
-	padding-left: 250px;
-}
 
 /*----------------------------*/
 	/* About Section */
 /*----------------------------*/
 .about {
-	background-image: linear-gradient(rgba(255,225,225,0.5),rgba(255,225,225,0.5)),url('img/macbook.jpg');
+	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)),url('img/home-office.jpg');
 	background-position: cover;
 	background-repeat: no-repeat;
 	background-size: 100%;

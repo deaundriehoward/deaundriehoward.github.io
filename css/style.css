@@ -63,8 +63,8 @@ h2 {
 /*----------------------------*/
 
 .jumbotron {
-	background-image: url('img/macbook.jpg');
-	background-position: cover;
+	background-image: url('../img/dapper.jpeg');
+	background-position: 100%;
 	background-size: 100%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -74,6 +74,7 @@ h2 {
 	letter-spacing: 1px;
 	margin: 0;
 	padding: 0;
+	margin-bottom: -20px;
 }
 
 .jumbotron h1 {
@@ -95,6 +96,7 @@ h2 {
 	height: 30rem;
 	margin: 0;
 	padding: 0;
+	background-color: #3498DB;
 }
 
 .carousel h2 {
@@ -103,15 +105,30 @@ h2 {
 
 
 .carousel img {
-	height: 40rem;
+	height: 30rem;
+}
+.carousel .thumbnail {
+	background-color: #3498DB;
+	border:none;
 }
 
+.carousel button {
+	margin-left: 670px;
+}
+
+/*----------------------------*/
+	/* Services Section */
+/*----------------------------*/
+.container .panel {
+	text-align: center;
+	padding: 10px;
+}
 
 /*----------------------------*/
 	/* About Section */
 /*----------------------------*/
 .about {
-	background-image: linear-gradient(rgba(255,225,225,0.5),rgba(255,225,225,0.5)),url('img/macbook.jpg');
+	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)),url('../img/macbook.jpg');
 	background-position: cover;
 	background-repeat: no-repeat;
 	background-size: 100%;

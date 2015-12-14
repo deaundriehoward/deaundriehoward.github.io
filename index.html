@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <!--	<link rel="stylesheet" type="text/css" href="normalize.css">-->
 <!--	<link rel="stylesheet" type="text/css" href="footer-dwaap.css">-->
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,300italic' rel='stylesheet' type='text/css'>
 	<title> Deaundrie Howard</title>
 </head>
@@ -29,13 +29,7 @@
 					<li class="active"><a href="#"> Home</a> </li>
 					<li><a href="#blog"> Blog </a></li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown"> Projects & Works <b class="caret"> </b></a>
-						<ul class="dropdown-menu">
-							<li><a href="#">Completed </a></li>
-							<li><a href="#">Current </a></li>
-							<li><a href="#">Future </a></li>
-						</ul>
-					</li>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"> Portfolio </a>
 					<li><a href="#about"> About </a></li>
 					<li><a href="#contact"> Contact</a></li>
 				</ul>
@@ -65,21 +59,21 @@
 
 			<!-- Image Wrapper -->
 			<div class="carousel-inner" role="listbox">
-				<div class="item active">
-					<img src="img/macbook.jpg" height="100px" width="760px"  alt="Alive">
+				<div class="item active thumbnail">
+					<img src="img/rgb-game.png" height="100px" width="660px"  alt="Alive">
 					<button class="btn btn-primary"> Learn More </button>
 				</div>
 
-				<div class="item">
-					<img src="img/alive.jpg" height="100px" width="760px" alt="Alive">
+				<div class="item thumbnail">
+					<img src="img/purrfect-match.png" height="100px" width="760px" alt="Alive">
 				</div>
 
-				<div class="item">
-					<img src="img/home-office.jpg" height="100px" width="760px" alt="Alive">
+				<div class="item thumbnail">
+					<img src="img/karma-clone.png" height="100px" width="760px" alt="Alive">
 				</div>
 
-				<div class="item">
-					<img src="img/fizzbuzz-app.png" height="200px" width="1260px" alt="Alive">
+				<div class="item thumbnail">
+					<img src="img/boot-image-gal.png" height="100px" width="660px" alt="Alive">
 				</div>
 			</div>
 		
@@ -99,22 +93,48 @@
     
 	<!-- Information Section -->
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-4">
-				<h3> <a href="#"> Completed Projects </a></h3>
-				<p> Through trial and error, wireframe after wireframe, debug after debug, here lies the masterpieces I have completed. </p>
+		<h2 style="text-align: center;"> Services Offered </h2>
+	<div class="row" id="features">
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Markup with HTML5</h3>
+						</div><!-- end panel-heading -->
+						<img src="img/badge_html5.jpg" alt="HTML5" class="img-circle">
+						
+						<p>90's authentic single-origin coffee stumptown Pinterest. Fap aesthetic dreamcatcher pickled Brooklyn irony.</p>
+						
+						<a href="https://www.udemy.com/build-beautiful-html5-website/" target="_blank" class="btn btn-warning btn-block">Learn to code HTML5</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+				
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Style with CSS3</h3>
+						</div><!-- end panel-heading -->
+						<img src="img/badge_css3.jpg" alt="CSS3" class="img-circle">
+						
+						<p>90's authentic single-origin coffee stumptown Pinterest. Fap aesthetic dreamcatcher pickled Brooklyn irony.</p>
+						
+						<a href="https://www.udemy.com/build-beautiful-html5-website/" target="_blank" class="btn btn-danger btn-block">Style it up with CSS3</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+				
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Framework by Bootstrap 3</h3>
+						</div><!-- end panel-heading -->
+						<img src="img/badge_bootstrap.jpg" alt="Bootstrap 3" class="img-circle">
+						
+						<p>90's authentic single-origin coffee stumptown Pinterest. Fap aesthetic dreamcatcher pickled Brooklyn irony.</p>
+						
+						<a href="http://getbootstrap.com/" target="_blank" class="btn btn-info btn-block">More Bootstrap</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
 			</div>
-			<div class="col-lg-4">
-				<h3> <a href="#"> Current Projects </a></h3>
-				<p> Every journey begins with one step. In this case, every project begins with one idea. These are my current works and why my coffee mugs are always empty.
-			</div>
-			<div class="col-lg-4">
-				<h3> <a href="#"> Future Projects </a></h3>
-				<p> I enjoy living in the present, yet love planning for the future and things to come. Here lies future projects I have lined up and why my coffee mugs continues to be filled up. </p>
-			</div>
-		</div>
-        <p> <em> * As you can tell...I LOVE COFFEE!</em></p>
-	</div><!-- End of Info Sect. -->
+		</div><!-- End of Info Sect. -->
 
 	<!-- About Section --> 
 		<div class="about">
@@ -146,6 +166,7 @@
             </form>
     </div>
     <!-- End of Contact -->
+
 	<!-- Footer Section -->
 	<footer>
 	<div class="footer-left">
