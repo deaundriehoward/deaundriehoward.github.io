@@ -68,7 +68,7 @@ h2 {
 	background-size: 100%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	height: 40rem;
+	height: 35rem;
 	text-align: left;
 	word-spacing: 1px;
 	letter-spacing: 1px;
@@ -121,7 +121,7 @@ h2 {
 	/* Services Section */
 /*----------------------------*/
 .services {
-	height: 40rem;
+	height: 35rem;
 }
 .services .panel {
 	text-align: center;
@@ -129,7 +129,7 @@ h2 {
 }
 .more-services {
 	text-align: center;
-	font-family: Slim Joe;
+	font-family: Lato;
 }
 .more-services .thumbnail{
 	border: none;
@@ -143,12 +143,12 @@ h2 {
 	/* About Section */
 /*----------------------------*/
 .about {
-	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)),url('../img/macbook.jpg');
+	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)),url('../img/home-office.jpg');
 	background-position: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100%;
-	height: 30rem;
+	height: 25rem;
 	text-align: center;
 }
 
@@ -173,20 +173,24 @@ h2 {
 .container .contact-heading h2 {
 	text-align: center;
 	text-transform: uppercase;
-	font-family: Slim Joe;
+	font-family: Lato;
 }
 
 .contact .message input{
 	border: none;
 	border-bottom: 1px solid #3498DB;
-	max-width: 760px;
+}
+.contact .message .message-input input {
+	text-align: left;
+	height: 100px;
+	flext-wrap: wrap;
 }
 /*----------------------------*/
 	/* Footer Section */
 /*----------------------------*/
 footer {
 	background-color: #3498DB;
-	height: 15rem;
+	height: 10rem;
 }
 .footer-left {
 	float: left;
