@@ -168,7 +168,7 @@ h2 {
 	/* Contact Section */
 /*----------------------------*/
 .contact {
-	height: 10rem;
+	height: 20rem;
 }
 .container .contact-heading h2 {
 	text-align: center;
@@ -184,13 +184,16 @@ h2 {
 /*----------------------------*/
 	/* Footer Section */
 /*----------------------------*/
-.footer {
+footer {
 	background-color: #3498DB;
-	height: 10rem;
+	height: 15rem;
 }
 .footer-left {
 	float: left;
 	display: inline-block;
+	}
+.footer-left a {
+	text-decoration: none;
 }
 .footer-links a {
 	font-size: 20px;
