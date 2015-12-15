@@ -68,7 +68,7 @@ h2 {
 	background-size: 100%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	height: 30rem;
+	height: 40rem;
 	text-align: left;
 	word-spacing: 1px;
 	letter-spacing: 1px;
@@ -93,7 +93,7 @@ h2 {
 	/* Projects & Works */
 /*----------------------------*/
 .carousel {
-	height: 30rem;
+	height: 35rem;
 	margin: 0;
 	padding: 0;
 	background-color: #3498DB;
@@ -101,6 +101,7 @@ h2 {
 
 .carousel h2 {
 	text-align: center;
+	padding-top: 20px;
 }
 
 
@@ -119,11 +120,25 @@ h2 {
 /*----------------------------*/
 	/* Services Section */
 /*----------------------------*/
-.container .panel {
+.services {
+	height: 40rem;
+}
+.services .panel {
 	text-align: center;
 	padding: 10px;
 }
-
+.more-services {
+	text-align: center;
+	font-family: Slim Joe;
+}
+.more-services .thumbnail{
+	border: none;
+	padding: 15px;
+}
+.more-services img {
+	height: 100px;
+	color: gray;
+}
 /*----------------------------*/
 	/* About Section */
 /*----------------------------*/
@@ -131,6 +146,7 @@ h2 {
 	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)),url('../img/macbook.jpg');
 	background-position: cover;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 	background-size: 100%;
 	height: 30rem;
 	text-align: center;
@@ -143,8 +159,52 @@ h2 {
 .about .me {
 	border-radius: 100%;
 }
+.about-icons {
+	font-size: 16px;
+	color: #000;
+	text-decoration: none;
+}
+/*----------------------------*/
+	/* Contact Section */
+/*----------------------------*/
+.contact {
+	height: 10rem;
+}
+.container .contact-heading h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Slim Joe;
+}
 
-
+.contact .message input{
+	border: none;
+	border-bottom: 1px solid #3498DB;
+	max-width: 760px;
+}
 /*----------------------------*/
 	/* Footer Section */
 /*----------------------------*/
+.footer {
+	background-color: #3498DB;
+	height: 10rem;
+}
+.footer-left {
+	float: left;
+	display: inline-block;
+}
+.footer-links a {
+	font-size: 20px;
+}
+.footer-center {
+	float:right;
+	text-align: center;
+	display: block;
+	padding: 20px;
+}
+.footer-company-name {
+	text-align: center;
+}
+.footer-icons {
+	padding: 10px;
+	font-size: 26px;
+}
