@@ -104,7 +104,9 @@ h2 {
 	padding-top: 20px;
 }
 
-
+.image .item .btn {
+	background-color: #777777;
+}
 .carousel img {
 	height: 30rem;
 }
@@ -191,13 +193,17 @@ h2 {
 footer {
 	background-color: #3498DB;
 	height: 10rem;
+	color: white;
 }
 .footer-left {
 	float: left;
 	display: inline-block;
 	}
-.footer-left a {
+.footer-left .footer-links a:visited {
 	text-decoration: none;
+}
+.footy .footer-left .footer-links a:hover {
+	color: white;
 }
 .footer-links a {
 	font-size: 20px;
