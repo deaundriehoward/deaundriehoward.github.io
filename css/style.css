@@ -23,6 +23,10 @@ h2 {
     font-weight: 100;
 }
 
+a {
+	text-decoration: none;
+}
+
 .clearfix {zoom: 1}
 .clearfix:after {
     content: ".";
@@ -105,7 +109,7 @@ h2 {
 }
 
 .image .item .btn {
-	background-color: #777777;
+	background-color: #fff;
 }
 .carousel img {
 	height: 30rem;
@@ -119,6 +123,9 @@ h2 {
 	margin-left: 670px;
 }
 
+.carousel a {
+	color: #555;
+}
 /*----------------------------*/
 	/* Services Section */
 /*----------------------------*/

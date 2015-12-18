@@ -1,0 +1,47 @@
+/*--------------- Basic Setup -----------*/
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+html {
+    background-color: #eee;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+body:: -webkit-scrollbar {
+	display: none;
+}
+h2 {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+a {
+	text-decoration: none;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: ".";
+        clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+/*--------------- Reusable Components -----------*/
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+.box {
+    padding: 1%;
+}
