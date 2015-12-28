@@ -4,7 +4,7 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 
-}
+}d
 
 html {
     background-color: #eee;
@@ -44,4 +44,13 @@ a {
 
 .box {
     padding: 1%;
+}
+
+/* Image Grid */
+.thumbnail {
+    height: 300px;
+}
+
+.modal-btn {
+    margin-left: 23%;
 }
