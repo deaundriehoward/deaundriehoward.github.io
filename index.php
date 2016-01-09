@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <!--	<link rel="stylesheet" type="text/css" href="normalize.css">-->
 <!--	<link rel="stylesheet" type="text/css" href="footer-dwaap.css">-->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="../style.css">
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,300italic' rel='stylesheet' type='text/css'>
 	<title> Deaundrie Howard</title>
 </head>
@@ -217,9 +217,39 @@
 			
 		</div><!-- End of About -->
     
-  <!-- Contact Section -->
+    <!-- Contact Section -->
+    <div class="container"> 
+    	<div class="contact"> 
+    	<h3 class="lead"> Please contact me via phone at (817) 891-9530 or email @ deaundrie7@gmail.com </h3> 
+    	<p> I am still learning more advanced PHP, so a contact form will be available soon! Thank you! <
+    	</div>
+    </div>
+    <!-- <div class="contact container">
+    	<div class="contact-heading">
+    		<h2> Contact </h2>
+    		<p style="text-align:center;">Please feel free to say hello! </p>
+    	</div>
+    	<div class="message">
+    		<div class="row">
+            <form id="interest" action="mailto:deaundie7@yahoo.com">
+                <div class="form-group col-md-6">
+                    <input class="form-control" type="text" placeholder="Full Name" name="name" required>
+                </div>
+                <div class="form-group col-md-6">
+    		<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" required>
+ 				 </div>
 
-    <!-- End of Contact -->
+                <div class="message-input form-group col-lg-12">
+                    <input class="form-control" type="text" placeholder="Message"  rows="50" col="100" name="name" required>
+                </div>
+                <div class="form-group col-lg-12">
+                    <button class="form-control btn btn-default btn-primary"> Send</button>
+                </div>
+            </form>
+            </div>
+          </div>
+    </div>
+ -->    <!-- End of Contact -->
 
 	<!-- Footer Section -->
 	<footer class="footy">
