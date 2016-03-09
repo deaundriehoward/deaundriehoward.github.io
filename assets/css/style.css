@@ -227,4 +227,10 @@ footer {
 .footer-icons {
 	padding: 10px;
 	font-size: 26px;
+
+}
+
+.footer-icons a, .footer-left a, .footer-center #email   {
+	color: black;
+	list-style: none;
 }
